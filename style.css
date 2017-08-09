@@ -86,4 +86,32 @@ input[type="button"]:hover {
 }
 
 
+#otherServices {
+	display: inline-block;
+	width: 18px; height: 100%;
+	position: relative;
+}
 
+#serviceButton {
+	display: inline-block;
+	width: 18px; height: 18px;
+	background-position: -138px -44px;
+	background-image: url(img/googleButtons.png);
+	bottom: 0;
+	position: absolute;
+}
+
+#topButtons {
+	float: right;
+	margin: 10px;
+}
+
+#topButtons a {
+	color: #404040;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+#topButtons a:hover {
+	text-decoration: underline;
+}
