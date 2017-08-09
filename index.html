@@ -8,13 +8,22 @@
 </head>
 <body>
 
-<div id="topButtons"></div>
+<div id="topButtons">
+	<a href="#">Gmail</a> <a href="#">Images</a> 
+
+</div>
 
 
 <div class="container">
 <div id="logo"></div>
 <form name="searchForm" action="#">
-	<input type="text" name="query">
+
+	<div id="searchBox">
+	<input type="text" name="query" class="query">
+	<div id="keyboardBox">
+		<img id="keyboard" src="img/keyboard.png">
+	</div>
+	</div>
 	<div id="buttons">
 	<input type="button" name="searchButton" value="Search on Google">
 	<input type="button" name="luckyButton" value="I'm feeling lucky">
