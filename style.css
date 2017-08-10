@@ -34,7 +34,6 @@ form{
 }
 
 #searchBox {
-	
 	width: 100%;
 	border-radius: 0;
 	padding: 0;
@@ -99,7 +98,7 @@ input[type="button"]:hover {
 }
 
 
-.topbar {
+#topbar {
 	list-style-type: none;
 	display: inline-block;
 	position: absolute;
@@ -108,21 +107,21 @@ input[type="button"]:hover {
 
 }
 
-.topbar li {
+#topbar li {
 	float: right;
 	padding: 8px;
 }
 
-li a {
+#topbar li a {
 	color: #404040;
 	text-decoration: none;
 }
 
-li a:hover {
+#topbar li a:hover {
 	text-decoration: underline;
 }
 
-#serviceButton {
+#topbar li #servicesButton {
 	width: 17px; height: 17px;
 	background-position: -138px -44px;
 	background-image: url(img/googleButtons.png);	
@@ -160,4 +159,9 @@ li a:hover {
 #footer a {
 	color: #666;
 	font-size: 0.9em;
+}
+
+
+#buttons a, #buttons a:visited {
+	text-decoration: none;
 }
