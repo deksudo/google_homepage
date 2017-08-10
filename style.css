@@ -16,6 +16,16 @@
 	width: 272px; height: 92px;
 	margin: 0 auto;
 	margin-bottom: 20px;	
+	position: relative;
+}
+
+#countryName {
+	position: absolute;
+	bottom: 0px;
+	left: 215px;
+	color: rgb(66, 133, 244);
+	white-space: nowrap;
+	font-family: Arial;
 }
 
 form{
