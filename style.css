@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: Arial;
 }
 
 .container {
@@ -25,7 +26,7 @@
 	left: 215px;
 	color: rgb(66, 133, 244);
 	white-space: nowrap;
-	font-family: Arial;
+	
 }
 
 form{
@@ -78,10 +79,7 @@ input[type="button"] {
 	margin: 10px 2px;
 	border: 1px solid white;
 	font-weight: 600;
-	font-size: 13px;
-	font-family: Arial;
-
-	
+	font-size: 13px;	
 }
 
 input[type="button"]:hover {
@@ -97,8 +95,6 @@ input[type="button"]:hover {
 
 #languageNotification {
 	position: relative;
-	
-	font-family: Arial;
 	font-size: 13px;
 }
 
@@ -138,7 +134,6 @@ li a:hover {
 	width: 100%; height: 40px;
 	background-color: #F2F2F2;
 	border-top: 1px solid #e4e4e4;
-	font-family: Arial;
 }
 
 #footer ul {
