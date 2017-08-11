@@ -1,5 +1,5 @@
 #topNavigation {
-	height: 60px;
+	height: 65px;
 	background-color: #FAFAFA;
 	border-bottom: 1px solid #ebebeb;
 }
@@ -7,8 +7,10 @@
 #resultsLogo {
 	background-image: url("img/googleLogo_SearchPage.png");
 	background-size: contain;
-	height: 60px;
+	height: 44px;
+	width: 120px;
 	float: left;
+	margin: 15px 10px 0 10px;
 }
 
 #magnetBox {
@@ -18,27 +20,37 @@
 	float: right;
 }
 
-#magnetBox path {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+#magnet {
+	display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
 }
 
 
 #topbar li a#loginButton {
 	padding: 8px;
-	border-radius: 5px;
+	border-radius: 1px;
 	background-color: #4683EC;
 	color: white;
+	font-size: 0.8em;
+	font-weight: bold;
 
 }
 
 #resultsPageForm {
-	width: 550px;
+	width: 600px;
 	display: inline-block;
+	float: left;
+	margin: 10px 10px 0 10px;
 }
 
-#searchBox#Results {
+#searchBox.results {
 	margin: 0;
+
+}
+
+#topNavigation #topbar {
+	margin-top: 15px;
 }
