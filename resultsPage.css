@@ -1,56 +1,120 @@
-#topNavigation {
-	height: 65px;
-	background-color: #FAFAFA;
-	border-bottom: 1px solid #ebebeb;
+* {
+	font-family: Arial;
+	box-sizing: border-box;
 }
 
-#resultsLogo {
+#top {
+	height: 75px;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #ebebeb;
+	position: relative;
+}
+
+#logoContainer {
+	position: relative;
+	height: 100%;
+	width: 120px;
+	float: left;
+	margin: 0 15px;
+}
+
+#logo {
 	background-image: url("img/googleLogo_SearchPage.png");
 	background-size: contain;
 	height: 44px;
-	width: 120px;
-	float: left;
-	margin: 15px 10px 0 10px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 
-#magnetBox {
-	position: relative;
-	width: 10%;
+#searchBoxContainer {
+	width: 600px;
 	height: 100%;
-	float: right;
+	float: left;
+	position: relative;
+	padding: 0; margin: 0;
+}
+
+#searchBox {
+	padding: 0; margin: 0;
+	height: 3em; width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.5em;
+	border: 1px solid #DDDDDD;
+	border-radius: 0;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.16);	
+	
+}
+
+input[type="text"] {
+	width: 85%;
+	height: 100%;
+	float: left;
+	border-radius: 0;
+	padding: 0; margin: 0;
+	padding-left: 2%;
+	border: none;
+}
+
+#searchBox .iconBox {
+	position: relative;
+	width: 5%;
+	margin-right: 2.5%;
+	height: 100%;
+	float: left;
+}
+
+#keyboard {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.iconBox .align {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
 }
 
 #magnet {
-	display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: calc(50% - 24px);
-  left: calc(50% - 24px);
+	fill: #4285f4;
 }
 
+#extras {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 0px;
+	margin: 0 20px;
+}
 
-#topbar li a#loginButton {
+#extras li {
 	padding: 8px;
-	border-radius: 1px;
-	background-color: #4683EC;
+	float: left;
+}
+
+#extras li div#services {
+	width: 17px; height: 17px;
+	background-position: -138px -44px;
+	background-image: url(img/googleButtons.png);
+}
+
+#extras li a {
+	text-decoration: none;
+}
+
+#extras li a#loginButton {
 	color: white;
+	background-color: #4485F6;
 	font-size: 0.8em;
 	font-weight: bold;
-
-}
-
-#resultsPageForm {
-	width: 600px;
-	display: inline-block;
-	float: left;
-	margin: 10px 10px 0 10px;
-}
-
-#searchBox.results {
-	margin: 0;
-
-}
-
-#topNavigation #topbar {
-	margin-top: 15px;
+	padding: 8px;
+	border-radius: 1px;
 }
