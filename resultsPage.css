@@ -146,6 +146,14 @@ input[type="text"] {
 	
 }
 
+#categories li a:hover {
+	color: black;
+	font-size: 0.8em;
+	padding: 10px 15px;
+	text-decoration: none;
+	
+}
+
 #categories li a.active {
 	color: #4285f4;
 	border-bottom: 3px solid #4285f4;
