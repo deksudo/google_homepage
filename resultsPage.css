@@ -160,7 +160,7 @@ input[type="text"] {
 	font-weight: bold;
 }
 
-#results, #pages {
+#results, #pages, #footer1, #footer2 {
 	margin-left: 170px;
 }
 
@@ -182,7 +182,7 @@ input[type="text"] {
 	font-size: 14px;
 }
 
-.result .header, .result .address, .video-date, .result.imagerow {
+.result .header, .result .address, .video-date, .result.imagerow img {
 	margin-bottom: 5px;
 }
 
@@ -247,4 +247,58 @@ input[type="text"] {
 	float: left;
 	margin-right: 5px;
 	margin-top: 10px;
+}
+
+#pages {
+	margin: auto;
+	margin-top: 10px;
+}
+
+span.letter {
+	width: 20px;
+	height: 40px;
+	display: block;
+	background-image: url(img/navButtons.png);
+	background-repeat: no-repeat;
+	background-size:167px;
+}
+
+#pageNumbers {
+	text-align: center;
+	color: blue;
+	font-size: 13px;
+}
+
+#pageNumbers td:hover:not(#currentPage) {
+	text-decoration: underline;
+}
+
+#currentPage {
+	color: black;
+}
+
+#footer {
+	height: 90px;
+	background-color: #F2F2F2;
+	position: relative;
+	border-top: 1px solid #ebebeb;
+}
+
+#footer1 li, #footer2 li {
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 13px;
+	padding: 0 8px;
+	position: relative;
+	color: #777;
+}
+
+.locationBall {
+	 width: 1em; 
+	 height: 1em; 
+	 border-radius: 1em; 
+	 background-color: #aaa; 
+	 display: inline-block;
+	 position: relative;
+	 top: 2px;
 }
